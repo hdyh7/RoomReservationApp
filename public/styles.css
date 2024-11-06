@@ -1,0 +1,61 @@
+/* Center the container */
+.container {
+    max-width: 800px;
+    margin-top: 50px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form labels and inputs */
+label {
+    font-weight: 500;
+    color: #333;
+}
+
+.form-control, .form-select {
+    border-radius: 4px;
+}
+
+/* Button styling */
+.btn-primary, .btn-warning {
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-danger {
+    padding: 2px 8px;
+    font-size: 0.9em;
+}
+
+/* Table styling */
+table {
+    margin-top: 20px;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Badge styles for status */
+.badge.text-bg-success {
+    background-color: #28a745 !important;
+}
+.badge.text-bg-warning {
+    background-color: #ffc107 !important;
+}
+.badge.text-bg-secondary {
+    background-color: #6c757d !important;
+}

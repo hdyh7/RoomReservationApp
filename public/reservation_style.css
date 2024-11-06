@@ -1,0 +1,80 @@
+/* Style for centering the main container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/RoomReservationApp/images/hands.jpg');
+    background-size:cover;
+    background-color: #bfc39a;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #404034;
+    color: #0c0404;
+    font-size: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Style for aligning the title on the left and the button on the right */
+.navbar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    
+}
+
+/* Main container for the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: calc(80px + 1rem); /* To make room for the fixed navbar */
+    width: 100%;
+}
+
+/* Form styling */
+#reservationForm {
+    width: 200%;
+    max-width: 800px;
+    padding: 2rem;
+    margin-top: 6rem;
+    background-color: #a1a19f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+#reservationForm .form-label {
+    font-weight: bold;
+    color: #000000;
+}
+
+#reservationForm .form-control,
+#reservationForm .form-select {
+    border-radius: 5px;
+}
+
+/* Tooltip styling */
+#capacityTooltip {
+    cursor: pointer;
+}
+
+/* Toast notification styling */
+.toast {
+    background-color: #8bd58e;
+    color: #ffffff;
+}
+
+.toast.bg-danger {
+    background-color: #dc3545;
+}
+
